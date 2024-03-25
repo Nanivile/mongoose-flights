@@ -1,0 +1,83 @@
+
+html {
+  background: url(/images/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  color: white;
+  padding: 50px;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  color: #007bff; /* Adjusted link color */
+  text-decoration: none;
+}
+
+/* Button Styles */
+.button {
+  background: #f85757; /* Pink color */
+  color: #fff;
+  text-transform: uppercase;
+  padding: 8px 12px; /* Increased padding for better clickability */
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: #ff5858; /* Lighter pink color on hover */
+  transform: scale(1.05);
+}
+
+/* Form Styles */
+input[type='datetime-local'],
+input,
+select {
+  padding: 8px;
+  margin: 5px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+input[type='text']:focus {
+  border-color: #333;
+}
+
+input[type='submit'] {
+  margin: 15px 0 30px 0;
+  padding: 8px 20px; 
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.4s;
+  background-color: #f85757; 
+  color: #fff;
+  border: 2px solid #ccc;
+  width: 120px; 
+}
+
+input[type='submit']:hover {
+  border-color: #5cb85c; /* Green color on hover */
+  background-color: #5cb85c;
+}
+
+/* Navigation Styles */
+.nav-link,
+.logo {
+  padding: 0 10px; /* Increased padding for better spacing */
+}
+
+.logo {
+  font-size: 1.5em; /* Slightly smaller logo size */
+}
+
+.nav a:hover {
+  text-decoration: underline; /* Underline on hover for better feedback */
+}
